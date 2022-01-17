@@ -11,6 +11,13 @@ namespace Simple_wordlist_generator
     {
         static void Main(string[] args)
         {
+            if (args.Length < 2)
+            {
+                Console.WriteLine("Error: Less than 2 arguments provided.");
+                Console.WriteLine("Usage: snowswgen.exe [input] [output]");
+                return;
+            }
+
             string inputFileName = args[0];
             string outputFileName = args[1];
 
