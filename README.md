@@ -13,3 +13,10 @@ output: test tesT teSt ... TEsT TESt TEST
 I made this tool for myself, because I was unable to find any other tool similar to this.
 
 I'm too lazy to make it better. Pull requests are welcomed tho.
+
+# To be implemented in the future perhaps
+
+- [ ] Use streamreader/writer instead of File.Read Write etc...
+- [ ] Multithreading
+- [ ] Append/prepend numbers
+- [ ] l33tc0de
